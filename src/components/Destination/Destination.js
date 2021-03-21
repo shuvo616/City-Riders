@@ -4,6 +4,7 @@ import { UserContext } from '../../App';
 import data from '../../data.json'
 import map from '../../images/Map.png'
 import logo from '../../images/peopleicon.png'
+import GoogleMap from '../GoogleMap/GoogleMap';
 import { UserLocation } from '../SearchArea/SearchArea';
 import './Destination.css'
 
@@ -52,6 +53,7 @@ const Destination = () => {
                 <div className="col-md-8 col-sm-12">
                     <div className="mapSection">
                         <img src={map} alt=""/>
+                        
                     </div>
                 </div>
             </div>
